@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-25T17:23:11 IST" name="Suite" finished-at="2024-09-25T17:23:20 IST" duration-ms="8871">
+    <groups>
+    </groups>
+    <test started-at="2024-09-25T17:23:11 IST" name="Test" finished-at="2024-09-25T17:23:20 IST" duration-ms="8871">
+      <class name="testCases.LoginTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.LoginTest@70ed52de]" started-at="2024-09-25T17:23:11 IST" name="Setup" finished-at="2024-09-25T17:23:14 IST" duration-ms="3503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Verify_Login_with_Valid_Username_and_Invalid_Password(java.lang.String,java.lang.String)[pri:1, instance:testCases.LoginTest@70ed52de]" started-at="2024-09-25T17:23:15 IST" name="Verify_Login_with_Valid_Username_and_Invalid_Password" description="Valid username and invalid password" data-provider="TC_02" finished-at="2024-09-25T17:23:17 IST" duration-ms="1422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hemandh.hemandh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_with_Valid_Username_and_Invalid_Password -->
+        <test-method signature="Verify_user_can_Login(java.lang.String,java.lang.String)[pri:2, instance:testCases.LoginTest@70ed52de]" started-at="2024-09-25T17:23:17 IST" name="Verify_user_can_Login" description="Login with valid credentials" data-provider="TC_01" finished-at="2024-09-25T17:23:19 IST" duration-ms="2683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hemandh.hemandh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hmd@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_user_can_Login -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:testCases.LoginTest@70ed52de]" started-at="2024-09-25T17:23:19 IST" name="Quit" finished-at="2024-09-25T17:23:20 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
